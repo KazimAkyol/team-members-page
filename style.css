@@ -12,6 +12,10 @@ header{
     align-items: center;
 }
 
+*p{
+    text-align: justify;
+}
+
 .left{
     margin-top: 25px;
     
@@ -24,5 +28,20 @@ header{
 
 .img-top{
     display: flex;
-    justify-content
+    justify-content: space-evenly;
+    flex: 3;
+}
+
+.imgt{
+    width: 250px;
+}
+
+.img-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 3;
+}
+
+.imgb{
+    width: 250px;
 }
