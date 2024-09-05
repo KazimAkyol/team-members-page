@@ -17,10 +17,10 @@ header{
     align-items: center;
 }
 
-p *{
+h3 {
     text-align: justify;
     font-style: oblique;
-    font-size: 100px;
+    font-size: 20px;
 }
 
 .left{
@@ -36,8 +36,7 @@ p *{
     font-size: 14px;
     line-height: 21px;
     text-decoration: none solid rgb(240, 246, 252);
-    word-spacing: 0px;
-    
+    word-spacing: 0px;  
 }
 
 .img-top{
