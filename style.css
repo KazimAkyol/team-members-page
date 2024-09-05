@@ -1,67 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    background-color: #ffffff;
+body {
+  background-color: #ffffff;
 }
 
 /* HEADER */
 
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h3 {
-    text-align: justify;
-    font-style: oblique;
-    font-size: 20px;
+  text-align: justify;
+  font-style: oblique;
+  font-size: 20px;
 }
 
-.left{
-    margin-top: 25px;
-    font-size: 14px;
-    line-height: 17px;
-    text-decoration: none;
-    
+.left {
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
 }
 
-.right{
-    margin-top: 13px;
-    font-size: 14px;
-    line-height: 21px;
-    text-decoration: none solid rgb(240, 246, 252);
-    word-spacing: 0px;  
+.right {
+  margin-top: 13px;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none solid rgb(240, 246, 252);
+  word-spacing: 0px;
 }
 
-.img-top{
-    display: flex;
-    overflow: clip;
-    transform: none;
-    justify-content: space-evenly;
-    list-style-type: none;
-    list-style-position: outside;
-    
+.right p {
+  text-align: justify;
+  font-style: oblique;
+  font-size: 15px;
 }
 
-.imgt{
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px;
+.img-top {
+  display: flex;
+  overflow: clip;
+  transform: none;
+  justify-content: space-evenly;
+  list-style-type: none;
+  list-style-position: outside;
 }
 
-.img-bottom{
-    display: flex;
-    justify-content: space-evenly;
+.imgt {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
 }
 
-.imgb{
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px;
+.img-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imgb {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
 }
